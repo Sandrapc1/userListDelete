@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:user_details/core/colors.dart';
 import 'package:user_details/views/home_tile.dart';
+import 'package:user_details/views/search_screen.dart';
 import '../controller/function_controller.dart';
 import 'floating_tile.dart';
 
@@ -14,6 +15,12 @@ class UserListScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: white,
       appBar: AppBar(
+        actions: [
+          IconButton(onPressed: () {
+            Get.to( SearchScreen());
+          }, 
+          icon: const Icon(Icons.search_outlined,color: white,))
+        ],
         backgroundColor: black,
         title: const Text(
           'User List',
