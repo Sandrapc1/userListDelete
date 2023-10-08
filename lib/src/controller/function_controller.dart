@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import '../core/colors.dart';
+import '../../core/colors.dart';
 import '../model/user_model.dart';
 
 class UserController extends GetxController {

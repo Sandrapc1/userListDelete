@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../controller/function_controller.dart';
-import '../core/colors.dart';
+import '../../core/colors.dart';
 import '../model/user_model.dart';
 
 class FloatingTile extends StatelessWidget {
